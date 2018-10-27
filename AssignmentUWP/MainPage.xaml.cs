@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Text.RegularExpressions;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -32,12 +33,20 @@ namespace AssignmentUWP
 
         public ObservableCollection<RootObject> collection { get; set; }
 
+        private static string RemoveHtmlTag(string value)
+        {
+            var step1 = Regex.Replace(value, @"<[^>]+>|&nbsp;", "").Trim();
+            var step2 = Regex.Replace(step1, @"\s{2,}", " ");
+            return step2;
+        }
+
         private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
             List<RootObject> data = await APIManager.GetData();
-
+            
             for (int i = 0; i< data.Count; i++)
             {
+                data[i].content.rendered = RemoveHtmlTag(data[i].content.rendered);
                 collection.Add(data[i]);
             }
             APIGridView.ItemsSource = collection;

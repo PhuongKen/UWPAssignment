@@ -31,13 +31,13 @@
     <AppXManifest Include="E:\Sem 3\AssignmentUWP\AssignmentUWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-27T04:27:07.477</Modified>
+      <Modified>2018-10-27T15:37:53.269</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Sem 3\AssignmentUWP\AssignmentUWP\bin\x86\Debug\AssignmentUWP.exe">
       <PackagePath>entrypoint\AssignmentUWP.exe</PackagePath>
-      <Modified>2018-10-27T04:26:59.031</Modified>
+      <Modified>2018-10-27T15:37:51.426</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Phuong\.nuget\packages\microsoft.csharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -559,15 +559,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Sem 3\AssignmentUWP\AssignmentUWP\bin\x86\Debug\AssignmentUWP.xr.xml">
       <PackagePath>AssignmentUWP.xr.xml</PackagePath>
-      <Modified>2018-10-27T04:26:58.565</Modified>
+      <Modified>2018-10-27T15:01:08.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Sem 3\AssignmentUWP\AssignmentUWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-10-27T04:26:58.627</Modified>
+      <Modified>2018-10-27T15:32:01.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Sem 3\AssignmentUWP\AssignmentUWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-10-27T04:26:58.627</Modified>
+      <Modified>2018-10-27T15:37:51.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -576,11 +576,11 @@
     <AppxPackagedFile Include="E:\Sem 3\AssignmentUWP\AssignmentUWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-27T04:27:04.243</Modified>
+      <Modified>2018-10-27T15:32:12.499</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Sem 3\AssignmentUWP\AssignmentUWP\bin\x86\Debug\Core\AssignmentUWP.exe">
       <PackagePath>AssignmentUWP.exe</PackagePath>
-      <Modified>2018-10-27T04:27:07.473</Modified>
+      <Modified>2018-10-27T15:37:53.264</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
